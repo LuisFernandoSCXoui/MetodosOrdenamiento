@@ -41,10 +41,11 @@ public class Main {
         String option;
         Scanner op = new Scanner(System.in);
         Gente[] gente = new Gente[100];
-
+        //TODO agregar variable...
         Ramdom();
         System.out.println("-------------------------------Datos----------------------------------------");
         for (int i = 0; i < 100; i++) {
+            //Imprimir aqui...
             gente[i] = new Gente();
             gente[i].setNombre(nombres[randomNom.nextInt(57)]);
             gente[i].setAltura(Altura[randomAltu.nextInt(35)]);

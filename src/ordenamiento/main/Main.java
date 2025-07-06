@@ -41,9 +41,12 @@ public class Main {
         String option;
         Scanner op = new Scanner(System.in);
         Gente[] gente = new Gente[100];
-        Double numeroDenisse = 8.0; 
+        String variable = "nuevo texto";
+
         Ramdom();
         System.out.println("-------------------------------Datos----------------------------------------");
+        System.out.print(variable);
+        Double numeroDenisse = 8.0; 
         for (int i = 0; i < 100; i++) {
         	//Para imprimir de manera ordenanda a la gente
             gente[i] = new Gente();

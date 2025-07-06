@@ -57,7 +57,7 @@ public class Main {
             gente[i].setPeso(Peso[randomPeso.nextInt(35)]);
             System.out.println("Nombre: " + gente[i].getNombre() + " Altura: " + gente[i].getAltura() + "cm  Edad: " + gente[i].getEdad() + " NSS:" + gente[i].getNss() + " Peso: " + gente[i].getPeso() + "kg");
         }
-        System.out.println("Hola");
+        System.out.println("Hola Fer");
         System.out.println();
         System.out.println("---------------------------Datos ordenados(Peso) con insertion sort----------------------------------");
         for (int i = 1; i < gente.length; i++) {
